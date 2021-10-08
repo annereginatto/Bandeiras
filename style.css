@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+    background-size: 400% 400%;
+    animation-name: colors;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors {
+    0%   {background-color: green;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75%  {background-color: black;}
+    100% {background-color: red;}
+  }
+
+.container {
+    text-align: center;
+    background-color: rgba(28, 28, 28, 0.8);
+    border: 3px dashed rgba(28, 28, 28, 0.6);
+    border-radius: 50px;
+    margin: 30px auto;
+    padding: 5px 10px 30px;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    margin: 30px 0;
+    background: linear-gradient(to right, #00c492 0%, #e31547 50%, #0079ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    cursor: default;
+    font-family: "Gloria Hallelujah", cursive;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    color: #1c1c1c;
+  }
+  
+  footer p:hover {
+    color: #f7f7f7;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+  }
+
+  .icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  #linkedin, #github, #discord, #codepen, #mail {
+      color: #1c1c1c;
+      padding: 0 10px;
+  }
+
+  #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
+      color: #f7f7f7;
+  }
